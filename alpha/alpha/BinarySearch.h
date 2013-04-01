@@ -1,3 +1,11 @@
+/*
+1. get the middle element
+2. if the middle element equals to the searched value, the algorithm stops;
+3. otherwise, two cases are possible:
+    - searched value is less, than the middle element. In this case, go to the step 1 for the part of the array, before middle element.
+    - searched value is greater, than the middle element. In this case, go to the step 1 for the part of the array, after middle element.
+*/
+
 #pragma once
 #ifndef alpha_BinarySearch_h
 #define alpha_BinarySearch_h
